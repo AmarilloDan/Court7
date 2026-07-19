@@ -1,0 +1,119 @@
+.login-container {
+    max-width: 350px;
+    margin: 60px auto;
+    padding: 30px 25px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.login-container label {
+    display: block;
+    margin: 15px 0 5px;
+    text-align: left;
+    color: #444;
+}
+.login-container input,
+.login-container select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.login-container button:hover {
+    background: #0056b3;
+}
+#loginMessage {
+    margin-top: 15px;
+    font-weight: bold;
+}
+body {
+    background: url(logo.png.jpg) no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: cover;
+}
+
+.header {
+    background: #e0e0e0;
+    padding: 2px 0 0 0;
+    position: relative;
+}
+
+.title {
+    font-size: 16px;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #bdbdbd;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.nav-link, .dropbtn {
+    background: #bdbdbd;
+    color: #222;
+    padding: 6px 12px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.2s;
+}
+
+.nav-link:hover, .dropbtn:hover {
+    background: #9e9e9e;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #e0e0e0;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    font-size: 12px;
+}
+
+.dropdown-content a {
+    color: #222;
+    padding: 4px 10px;
+    text-decoration: none;
+    display: block;
+    transition: background 0.2s;
+}
+
+.dropdown-content a:hover {
+    background: #bdbdbd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
